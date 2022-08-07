@@ -4,6 +4,6 @@
   
  ## TODO:
    - [x] Create One axis TC CNC Model
-   - [] Active Single Axis movement in  CNC Libraires
-   - [] Build a SAC model to control one axis system. 
-   -- []  
+   - [ ] Active Single Axis movement in  CNC Libraires
+   - [ ] Build a SAC model to control one axis system. 
+   -- [ ]  
