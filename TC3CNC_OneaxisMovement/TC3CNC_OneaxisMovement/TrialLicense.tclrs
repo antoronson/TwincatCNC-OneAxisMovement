@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<TcLicenseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2011/11/TcLicenseInfo">
+	<LicenseInfo>
+		<SystemId>{91B72ACC-0D8B-0190-D62C-07EAF3F66592}</SystemId>
+		<IssueTime>2022-08-07T16:01:00</IssueTime>
+		<ExpireTime>2022-08-15T00:00:00</ExpireTime>
+		<LicenseKey>bc5fa5d4045342e65d3646582ce5477004c5bb4372d22896c2b65353e49c22b13a8971c114d0651a0ebb34997f018bfd9094a2d3e503a5934aabd5fc98ae0b8f08b98110256248d84f33bdd2de1950b0e7854b7c01c5e0373dbfa1ab6bbb679b11ce75b7b82fc938244b7fb21a2ea97937ab5cf2d9add52754860c06216126cd6fc22cdc50691ef1421b0e680e12b51f5c0c58067d5d81e2e120119794c3577425eb5641d59960e186c4875199587e5e312eb4df55f8204144e056b85394933738a3b864a438f9b48bd4e087d5367b1b9bb8a3459f1f189b2899623d4342fbc4e3a4a58348074d94e695625afb9c81a38a27f011446d549e7d3fc3c4ac324cdd</LicenseKey>
+		<License>
+			<LicenseId>{A19036CF-A53B-4E3A-99FF-023EF5C4798B}</LicenseId>
+			<Name>TC3 NC PTP Axis</Name>
+			<Instances>10</Instances>
+		</License>
+		<License>
+			<LicenseId>{520DE751-9DB6-47CB-8240-BD5C466E7E64}</LicenseId>
+			<Name>TC3 NC PTP</Name>
+			<OrderNo>TF5000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{DEA72F0A-9EA0-48F4-ABB5-766516202B8E}</LicenseId>
+			<Name>TC3 NC I</Name>
+			<OrderNo>TF5100</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{281D57F6-ECA5-4116-A7E2-E5565EF04976}</LicenseId>
+			<Name>TC3 CNC Axis</Name>
+			<Instances>8</Instances>
+		</License>
+		<License>
+			<LicenseId>{5533D163-895A-4487-AF42-1659698510A7}</LicenseId>
+			<Name>TC3 CNC Channel</Name>
+			<OrderNo>TF5230</OrderNo>
+			<Instances>1</Instances>
+		</License>
+		<License>
+			<LicenseId>{A6DA2335-6B5A-4627-8824-0B8D5E3E73C5}</LicenseId>
+			<Name>TC3 CNC-E</Name>
+			<OrderNo>TF5210</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{4C256767-E6E6-4AF5-BD68-9F7ABAD0C200}</LicenseId>
+			<Name>TC3 ADS</Name>
+			<OrderNo>TC1000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{66689887-CCBD-452C-AC9A-039D997C6E66}</LicenseId>
+			<Name>TC3 PLC</Name>
+			<OrderNo>TC1200</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{3FF18E97-7754-401B-93FB-70544DE28A13}</LicenseId>
+			<Name>TC3 IO</Name>
+			<OrderNo>TC1100</OrderNo>
+		</License>
+	</LicenseInfo>
+</TcLicenseInfo>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <POU Name="MotionControl" Id="{1e33ec8f-67b8-4708-8ed2-209b19dae61f}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK MotionControl
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+	cncChannnelHandler	:TC_CNC;
+	refAxis		: AXIS_REF;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Action Name="AxisControl" Id="{935ac1fc-1b1d-4d8e-8e68-82d4529718fc}">
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Action>
+    <Method Name="GetPosition" Id="{fd1d2b8c-fc3a-484e-bd80-052e41828328}">
+      <Declaration><![CDATA[METHOD GetPosition : DWORD
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="setAxis" Id="{8ed7fae7-762a-4c5c-a6db-e0eed52615e9}">
+      <Declaration><![CDATA[METHOD setAxis : BOOL
+VAR_INPUT
+	refToAxis		:AXIS_REF;
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="SetParams" Id="{a15fad5c-e4f7-4216-8d35-33473220a766}">
+      <Declaration><![CDATA[METHOD SetParams : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="SetPosition" Id="{dc7dbf2f-ab9e-4917-9eba-cd2f69ccd871}">
+      <Declaration><![CDATA[METHOD SetPosition : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <LineIds Name="MotionControl">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+    <LineIds Name="MotionControl.AxisControl">
+      <LineId Id="1" Count="0" />
+    </LineIds>
+    <LineIds Name="MotionControl.GetPosition">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+    <LineIds Name="MotionControl.setAxis">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+    <LineIds Name="MotionControl.SetParams">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+    <LineIds Name="MotionControl.SetPosition">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

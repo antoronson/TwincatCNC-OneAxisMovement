@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <DUT Name="ST_MotionControl" Id="{354e090d-c15a-41ea-a27a-8a091ae3411c}">
+    <Declaration><![CDATA[TYPE ST_MotionControl :
+STRUCT
+	MoveAbsolute		: MC_MoveAbsolute;
+	PauseMovement		: MC_Halt;
+	StopMovement		: MC_Stop;
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
